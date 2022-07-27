@@ -1,0 +1,42 @@
+*,
+*::before,
+*::after {
+    margin: 8px;
+    padding: 0px;
+    box-sizing: inherit;
+}
+
+
+html {
+    box-sizing: border-box;
+    font-size: auto;
+    font-family: Tahoma, Verdana, sans-serif;
+}
+
+body {
+background-color: aqua;
+}
+
+header {
+    position: relative;
+    padding : 1rem;
+}
+
+
+nav a {
+    color: red;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+nav ul {
+    list-style-type: none;
+    position: absolute;
+    top: .07rem;
+    right: 1rem;
+}
+
+nav li {
+    display: inline;
+    margin: 1rem;
+}
